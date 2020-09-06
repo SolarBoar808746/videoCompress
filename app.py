@@ -79,8 +79,8 @@ def detect_object(path,filename,size):
 
 def send_mail(e_ma,fname,name):
 
-    email_user = 'gabhi3859@gmail.com'
-    email_password = 'abhimatgupta'
+    email_user = 'pasija2709@gmail.com'
+    email_password = 'noobmaster123'
     email_send = e_ma
 
     subject = 'RGB to Grayscale Video'
@@ -90,7 +90,7 @@ def send_mail(e_ma,fname,name):
     msg['To'] = email_send
     msg['Subject'] = subject
 
-    body = 'Hi '+ name +' there, sending email of Video form Abhimat Gupta'
+    body = 'Hi '+ name +' there, sending email of Video form Parshant Asija'
     msg.attach(MIMEText(body,'plain'))
 
     filename= fname
